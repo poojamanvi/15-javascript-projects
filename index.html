@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="nav-container">
+            <button id="sort">Sort movie by IMDB Rating</button>
+            <span>Filter Movie by Categories</span>
+            <select id="filter">
+                <option value="Action">Action</option>
+                <option value="Darama">Darama</option>
+                <option value="Comedy">comedy</option>
+                <option value="Thriller">Thriller</option>
+                <option value="Romantic">Romantic</option>
+            </select>
+
+            <button type="submit" id="openPop">Search For Movie</button>
+            
+            
+        </div>
+        <form action="">
+        <div id="popOverlay"></div>
+        <div class="popup">
+        
+            <input type="text" name="" id="movie-name" placeholder="Movie Name">
+            <input type="text" name="" id="img-link" placeholder="Movie Img link">
+            <input type="text" name="" id="rating" placeholder="Imdb Rating">
+            <select  id="select" id="select">
+                <option value="Action">Action</option>
+                <option value="Darama">Darama</option>
+                <option value="Comedy">comedy</option>
+                <option value="Thriller">Thriller</option>
+                <option value="Romantic">Romantic</option>
+            </select>
+            
+            
+            <input type="text" name="" id="trailer-link" placeholder="trailer-link(youtube)">
+            <input type="text" name="" id="Actors-Name" placeholder="Actors Name">
+            <input type="text" name="" id="Director-Name" placeholder="Director Name">
+            
+            <button type="submit" id="btn">SUBMIT</button>
+        </form>
+
+        
+       </div>
+       <div id="container"></div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
